@@ -23,7 +23,7 @@ public class CoderController {
         //Iteramos sobre la lista que devuelve el método findAll
         for (Object obj : this.objCoderModel.findAll()) {
 
-            // Convertimos o casteamos el objeto tipo Object a un coder
+            // Convertimos el objeto tipo Object a un coder
             Coder objCoder = (Coder) obj;
 
             //Concatenamos la información

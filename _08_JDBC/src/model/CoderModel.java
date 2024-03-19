@@ -32,7 +32,7 @@ public class CoderModel implements CRUD {
             //4. Preparar el statement
             PreparedStatement objPrepareStatement = (PreparedStatement) objConnection.prepareStatement(sql, PreparedStatement.RETURN_GENERATED_KEYS);
 
-            //5.Asignar los ?
+            //5.Asignar los "?"
             objPrepareStatement.setString(1, objCoder.getName());
             objPrepareStatement.setInt(2, objCoder.getAge());
             objPrepareStatement.setString(3, objCoder.getClan());
@@ -52,9 +52,10 @@ public class CoderModel implements CRUD {
 
         }catch (Exception e){
             JOptionPane.showMessageDialog(null, "Error adding Coder " + e.getMessage());
-        };
+        }
 
         //9. Cerramos la conexión
+        ConfigDB.closeConnection();
 
         return objCoder;
     }
@@ -72,7 +73,7 @@ public class CoderModel implements CRUD {
     @Override
     public List<Object> findAll() {
 
-        //1. Abrir conexion
+        //1. Abrir conexión
         Connection objConnection = ConfigDB.openConnection();
 
         //2. Inicializar la lista donde se almacenaran los registros que devuelve la BD
