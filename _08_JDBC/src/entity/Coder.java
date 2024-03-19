@@ -17,6 +17,10 @@ public class Coder {
         this.clan = clan;
     }
 
+    public Coder() {
+
+    }
+
     public int getId() {
         return id;
     }
@@ -51,11 +55,9 @@ public class Coder {
 
     @Override
     public String toString() {
-        return "Coder{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", age=" + age +
-                ", clan='" + clan + '\'' +
-                '}';
+        return "Coder "+ id +
+                ", name = " + name +
+                ", age = " + age +
+                ", clan = " + clan;
     }
 }
