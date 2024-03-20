@@ -1,5 +1,6 @@
 import controller.CoderController;
 import database.ConfigDB;
+import model.CoderModel;
 
 import javax.swing.*;
 
@@ -32,8 +33,16 @@ public class Main {
                     objCoderController.create();
                     break;
 
-            }
+                case "4": //Delete coders
+                    objCoderController.delete();
+                    break;
 
+                case "5": //Find by name coders
+                    objCoderController.find();
+                    break;
+
+
+            }
         }while (!option.equals("6"));
     }
 }
