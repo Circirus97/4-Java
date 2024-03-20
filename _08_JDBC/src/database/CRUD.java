@@ -9,7 +9,7 @@ public interface CRUD {
     //Object es una clase genérica para los objetos, donde cualquier objeto de java puede ser un object.
     Object insert(Object object);
 
-    boolean update(Object object);
+    Object update(Object object);
 
     void delete(Object object);
 
@@ -17,7 +17,7 @@ public interface CRUD {
 
     Object findById(int id);
 
-     List<Coder> findByName(String name);
+    List<Coder> findByName(String name);
 
 
 }

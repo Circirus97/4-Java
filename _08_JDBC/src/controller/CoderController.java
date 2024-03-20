@@ -16,6 +16,40 @@ public class CoderController {
         this.objCoderModel = new CoderModel();
     }
 
+    public void updateCoder(){
+
+        String listCoderString = "CODER LIST \n";
+
+        for (Object obj : this.objCoderModel.findAll()) {
+            Coder objCoder = (Coder) obj;
+            listCoderString += objCoder.toString() + "\n";
+        }
+
+        int idCoder = Integer.parseInt(JOptionPane.showInputDialog(listCoderString + "Enter the ID of the coder to update"));
+
+        Coder objCoder = (Coder) this.objCoderModel.findById(idCoder);
+
+        if (objCoder == null) {
+            JOptionPane.showMessageDialog(null, "Coder not found.");
+
+        }
+        Coder coder = new Coder();
+
+        String name = JOptionPane.showInputDialog("Insert name: ");
+        int age = Integer.parseInt(JOptionPane.showInputDialog("Insert age: "));
+        String clan = JOptionPane.showInputDialog("Insert name clan: ");
+
+        coder.setId(idCoder);
+        coder.setName(name);
+        coder.setAge(age);
+        coder.setClan(clan);
+
+        coder = (Coder) this.objCoderModel.update(coder);
+
+        JOptionPane.showMessageDialog(null, coder.toString());
+
+    }
+
     public void find(){
 
         String nameCoder = JOptionPane.showInputDialog(null, "Enter the name of the coder for search");
@@ -32,8 +66,6 @@ public class CoderController {
         JOptionPane.showMessageDialog(null, list);
 
     }
-
-
 
     public void delete() {
 

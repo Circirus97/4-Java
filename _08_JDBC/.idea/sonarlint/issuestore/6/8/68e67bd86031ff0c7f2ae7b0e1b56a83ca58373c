@@ -1,0 +1,44 @@
+
+k
+java:S2095!"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(î€İ18ğÃ‹ğå1
+e
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ïİÀÇ8ïÃ‹ğå1
+m
+java:S2095¤"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(×ªÜò8ğÃ‹ğå1
+k
+java:S2095K"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(î€İ18ğÃ‹ğå1
+e
+java:S2095u"HUse try-with-resources or close this "Connection" in a "finally" clause.(ïİÀÇ8ğÃ‹ğå1
+f
+java:S2095™"HUse try-with-resources or close this "Connection" in a "finally" clause.(ïİÀÇ8ğÃ‹ğå1
+e
+java:S2095B"HUse try-with-resources or close this "Connection" in a "finally" clause.(ïİÀÇ8ïÃ‹ğå1
+m
+java:S2095õ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(†éûÙ8ïÃ‹ğå1
+f
+java:S2095Æ"HUse try-with-resources or close this "Connection" in a "finally" clause.(ïİÀÇ8ïÃ‹ğå1
+l
+java:S2095}"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(›–ã8ğÃ‹ğå1
+f
+java:S2095í"HUse try-with-resources or close this "Connection" in a "finally" clause.(ïİÀÇ8ïÃ‹ğå1
+m
+java:S2095Ï"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(³İŸ³8ïÃ‹ğå1
+P
+java:S1905!"4Remove this unnecessary cast to "PreparedStatement".(î€İ18öÃ‹ğå1
+d
+java:S3252!"HUse static access with "java.sql.Statement" for "RETURN_GENERATED_KEYS".(î€İ18öÃ‹ğå1
+P
+java:S1905K"4Remove this unnecessary cast to "PreparedStatement".(î€İ18úÃ‹ğå1
+d
+java:S3252K"HUse static access with "java.sql.Statement" for "RETURN_GENERATED_KEYS".(î€İ18úÃ‹ğå1
+]	java:S125X"<This block of commented-out lines of code should be removed.(şšŒ°üÿÿÿÿ8üÃ‹ğå1
+[
+java:S1854‡"=Remove this useless assignment to local variable "isDeleted".( öú8ÿÃ‹ğå1
+P
+java:S1481r".Remove this unused "isDeleted" local variable.(…°Ë†ÿÿÿÿÿ8€Ä‹ğå1
+e
+java:S3252~"HUse static access with "java.sql.Statement" for "RETURN_GENERATED_KEYS".(»Ø¶­8‚Ä‹ğå1
+R
+java:S1905¤"4Remove this unnecessary cast to "PreparedStatement".(×ªÜò8†Ä‹ğå1
+O
+java:S1905§",Remove this unnecessary cast to "ResultSet".(¡¤²½şÿÿÿÿ8‡Ä‹ğå1

@@ -33,6 +33,10 @@ public class Main {
                     objCoderController.create();
                     break;
 
+                case "3": //Update coders
+                    objCoderController.updateCoder();
+                    break;
+
                 case "4": //Delete coders
                     objCoderController.delete();
                     break;
